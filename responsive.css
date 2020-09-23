@@ -1,0 +1,269 @@
+/* Responsive */
+@media screen and (max-width: 1000px) {
+  #header .row {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 935px) {
+  #directs {
+    margin-top: 54px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .post {
+    background: none;
+    border: none;
+  }
+
+  .comment-textarea {
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 735px) {
+  #user {
+    margin-top: 80px;
+  }
+
+  #user .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #user .container .row {
+    height: 145px;
+    position: relative;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+  }
+
+  #user .container .col-4 {
+    flex: 0 0 155px;
+    max-width: 115px;
+  }
+
+  .avatar {
+    width: 80px;
+  }
+
+  #user .col-8 {
+    -ms-flex: 0 0 calc(100% - 115px);
+    flex: 0 0 calc(100% - 115px);
+    max-width: calc(100% - 115px);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-heading {
+    order: 1;
+    flex-wrap: wrap;
+    padding-top: 5px;
+  }
+
+  .profile-author {
+    order: 1;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .edit-prof-btn {
+    width: 100%;
+    order: 2;
+    display: block;
+    margin: 15px 0 0;
+  }
+
+  .username-and-settings {
+    max-width: 78%;
+  }
+
+  .settings-img {
+    order: 1;
+    right: -30px;
+  }
+
+  .profile-statistics {
+    order: 3;
+    position: relative;
+    top: 100%;
+    width: calc(100% + 145px);
+    display: flex;
+    left: -130px;
+    padding: 20px 0;
+    border-bottom: 1px solid #dbdbdb;
+    justify-content: space-around;
+  }
+
+  .profile-statistics span {
+    text-align: center;
+    font-size: 15px;
+    color: #8e8e8e;
+    width: 65px;
+  }
+
+  .profile-statistics > * {
+    margin: 0;
+  }
+
+  .profile-statistics span b {
+    display: block;
+    font-size: 14px;
+    color: #262626;
+    font-weight: 600;
+  }
+
+  .profile-bio {
+    margin-top: 25px;
+    order: 2;
+    width: calc(100% + 115px);
+    margin-left: -100px;
+  }
+
+  .profile-bio span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 98%;
+    white-space: nowrap;
+    display: block;
+  }
+
+  .user-tabs ul {
+    margin-top: 90px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 12px;
+  }
+
+  .user-tabs ul li {
+    padding: 0;
+    border: none;
+    margin: 0 10%;
+  }
+
+  .user-tabs ul li.active {
+    border: none;
+  }
+
+  .user-tabs ul li span {
+    display: none;
+  }
+
+  #user-posts-tab,
+#user-saved-posts-tab {
+    width: 24px;
+    margin-right: 0;
+  }
+
+  .user-tabs ul li.active path {
+    fill: #0095f6;
+    stroke: #0095f6;
+  }
+
+  #user-posts {
+    margin: 0;
+  }
+
+  #user-posts .img-box {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  #user-posts .row {
+    margin-bottom: 3px;
+  }
+
+  #user-posts .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .hover-infos {
+    right: 3px;
+    left: 3px;
+    flex-direction: column;
+  }
+
+  .hover-infos span {
+    font-size: 14px;
+  }
+
+  .hover-infos svg {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo-area {
+    max-width: 20%;
+  }
+
+  .search-container {
+    max-width: 43%;
+  }
+}
+@media screen and (max-width: 620px) {
+  #header .nav .nav-item {
+    margin: 0px 5px;
+  }
+}
+@media screen and (max-width: 515px) {
+  .search-container {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .search-form {
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    border-radius: 0;
+  }
+
+  .search-form input {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 0 10px 15px 40px;
+  }
+
+  .nav-pages {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: calc(100% - 115px);
+  }
+
+  .small-screen-search-icon {
+    display: initial;
+  }
+
+  .search-svg {
+    top: 4px !important;
+  }
+
+  .search-form input:focus ~ .search-svg {
+    left: 15px;
+  }
+}
+@media screen and (max-width: 332px) {
+  svg {
+    width: 20px;
+  }
+
+  .nav-pages {
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+
+  .logo-area {
+    max-width: 50px;
+    flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

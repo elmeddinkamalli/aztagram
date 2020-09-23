@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aztagram</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 logo-area">
+                    <a href="index.html"><img class="logo" src="./assets/logo.png" alt="Aztagram"></a>
+                </div>
+                <div class="col-4 search-container">
+                    <form action="#" class="search-form">
+                        <input type="text" class="search-input">
+                        <svg class="search-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                        <style type="text/css">
+                            .search{fill:none;stroke:#a5a7aa;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <g id="Layer_1">
+                        </g>
+                        <g id="Layer_2">
+                            <path class="search" d="M260.8,268.92c-25.76-27.72-51.51-55.43-77.27-83.15c-16.32,15.76-38.51,25.47-62.94,25.47
+                                c-49.98,0-90.64-40.66-90.64-90.64s40.66-90.64,90.64-90.64s90.64,40.66,90.64,90.64c0,21.23-7.34,40.78-19.61,56.25
+                                c26.08,28.07,52.16,56.13,78.24,84.2c-0.17,0.66,0,5.67-1.83,6.63S266.28,269.75,260.8,268.92z M199.24,120.6
+                                c0-43.36-35.28-78.64-78.64-78.64c-43.36,0-78.64,35.28-78.64,78.64c0,43.36,35.28,78.64,78.64,78.64
+                                C163.96,199.24,199.24,163.96,199.24,120.6z"/>
+                        </g>
+                        </svg>
+                        <span class="search-span">Search</span>
+                    </form>
+                </div>
+                <div class="col-4 nav-pages">
+                    <ul class="nav">
+                        <li class="nav-item small-screen-search-icon">
+                            <svg class="search-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                            <style type="text/css">
+                                .small-screen-search-svg{fill:#262626;stroke:#262626;stroke-width:10px;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <g id="Layer_1">
+                            </g>
+                            <g id="Layer_2">
+                                <path class="small-screen-search-svg" d="M260.8,268.92c-25.76-27.72-51.51-55.43-77.27-83.15c-16.32,15.76-38.51,25.47-62.94,25.47
+                                    c-49.98,0-90.64-40.66-90.64-90.64s40.66-90.64,90.64-90.64s90.64,40.66,90.64,90.64c0,21.23-7.34,40.78-19.61,56.25
+                                    c26.08,28.07,52.16,56.13,78.24,84.2c-0.17,0.66,0,5.67-1.83,6.63S266.28,269.75,260.8,268.92z M199.24,120.6
+                                    c0-43.36-35.28-78.64-78.64-78.64c-43.36,0-78.64,35.28-78.64,78.64c0,43.36,35.28,78.64,78.64,78.64
+                                    C163.96,199.24,199.24,163.96,199.24,120.6z"/>
+                            </g>
+                            </svg>
+                        </li>
+
+                        <li class="nav-item active"><a href="index.html" class="nav-link">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <svg version="1.1" id="Layer_1_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                            <style type="text/css">
+                                .home{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <g>
+                                <path class="home" d="M5.3,26.81v27.73h19.24V32.91c0-0.02,0-0.55,0.55-1.1c0.59-0.59,1.91-1.3,4.83-1.3c5.35,0,5.5,2.4,5.5,2.42
+                                    v21.62H54.3V26.82L30,5.13L5.3,26.81z"/>
+                            </g>
+                            </svg>
+                        </a></li>
+                        <li class="nav-item"><a href="direct.html" class="nav-link">
+                            <svg version="1.1" id="Layer_2_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                            <style type="text/css">
+                                .direct{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <path class="direct" d="M54.98,5.3L29.32,55.5l-6.58-29.07L4.72,5.3H54.98z M22.74,26.43c10.32-6.77,20.65-13.53,30.97-20.3"/>
+                            </svg>
+                        </a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">
+                            <svg version="1.1" id="Layer_2_xA0_Image_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                            <style type="text/css">
+                                .heart{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                            </style>
+                            <g>
+                                <g>
+                                    <path class="heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                        c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                        C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                                </g>
+                                <g>
+                                    <path class="heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                        c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                        C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                                </g>
+                            </g>
+                            </svg>
+                        </a></li>
+                        <li class="nav-item"><a href="user.html" class="nav-link">
+                            <img class="user-header-pic" src="./assets/user-mini.png" alt="">
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <section id="posts">
+        <div class="container">
+            <div class="row">
+                <!-- Post -->
+                <div class="col post">
+
+                    <!-- Post Heading -->
+                    <div class="post-heading">
+                        <img class="post-user-img" src="./assets/user-mini.png" alt="user"><span>elmeddinkamalli</span>
+                        <div class="post-settings-points"><span></span><span></span><span></span></div>
+                    </div>
+
+                    <!-- Post Image -->
+                    <div class="post-img">
+                        <img src="./assets/landscape.jpg" alt="post img">
+                    </div>
+
+                    <!-- Post Actions -->
+                    <div class="post-actions">
+
+                        <svg version="1.1" id="post-heart-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-heart{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <g>
+                            <g>
+                                <path class="post-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                    c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                    C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                            </g>
+                            <g>
+                                <path class="post-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                    c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                    C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                            </g>
+                        </g>
+                        </svg>
+
+                        <svg version="1.1" id="post-comment-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-comment{fill:none;stroke:#262626;stroke-width:15px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-comment" d="M270.23,270.14l-59.7-20.89c-19.58,12.61-42.87,19.92-67.84,19.92c-69.33,0-125.74-56.4-125.74-125.74
+                            C16.95,74.1,73.36,17.7,142.69,17.7s125.73,56.4,125.73,125.73c0,23.92-6.71,46.29-18.34,65.35L270.23,270.14z M243.26,209.54
+                            c4.87-7.52,11.14-19.02,15.24-34.12c0,0,4.23-15.67,4.23-31.66c0-66.17-53.83-120.01-120.01-120.01S22.71,77.59,22.71,143.76
+                            c0,66.18,53.84,120.02,120.02,120.02c16.78,0,33.75-4.83,33.75-4.83c15.07-4.22,26.68-10.39,34.44-15.27
+                            c17.36,6.44,34.72,12.88,52.08,19.32C256.42,245.18,249.84,227.36,243.26,209.54z"/>
+                        </svg>
+
+                        <svg version="1.1" id="post-direct-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-direct{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-direct" d="M54.98,5.3L29.32,55.5l-6.58-29.07L4.72,5.3H54.98z M22.74,26.43c10.32-6.77,20.65-13.53,30.97-20.3"/>
+                        </svg>
+
+                        <svg version="1.1" id="post-save-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-save{fill:#262626;stroke:#262626;stroke-width:13px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-save" d="M280.9,279.42L149.76,148.28L18.3,279.74V18.3h262.6V279.42z M13.3,13.3v271.44v1.16h5.91l5-5l125.55-125.55
+                            L275.31,280.9l5,5h5.59v-1.48V13.3H13.3z"/>
+                        </svg>
+
+                    </div>
+
+                    <!-- Post infos -->
+                    <div class="post-info">
+                        <div class="post-likes"><span>123</span> likes</div>
+                        <div class="post-author-title"><span class="post-author">elmeddinkamalli</span><span class="post-title"> Gozel bir menzere</span></div>
+                    </div>
+
+                    <!-- Post comments -->
+                    <div class="post-comments">
+                        <div class="post-comments-view-more">View all <span>15</span> comments</div>
+                        <div class="post-selected-comments">
+                            <div class="post-comment">
+                                <span class="post-comment-author">ramazan.aliyev</span><span class="post-raw-comment"> Super</span>
+                                <svg version="1.1" id="post-comment-svg-heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                                <style type="text/css">
+                                    .post-comment-heart{fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}
+                                </style>
+                                <g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                            c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                            C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                                    </g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                            c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                            C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                                    </g>
+                                </g>
+                                </svg>
+                            </div>
+                            <div class="post-comment">
+                                <span class="post-comment-author">cavidan_isaqli</span><span class="post-raw-comment"> Ela! Cox beyendim...</span>
+                                <svg version="1.1" id="post-comment-svg-heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                            c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                            C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                                    </g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                            c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                            C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                                    </g>
+                                </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="post-timeline">5 hours ago</div>
+
+                    </div>
+
+                    <!-- Post comment form -->
+                    <div class="post-comment-form-container">
+                        <form action="#">
+                            <textarea class="comment-textarea" name="comment" placeholder="Add a comment..."></textarea>
+                            <input class="comment-input" type="submit" value="Post">
+                        </form>
+                    </div>
+
+                </div>
+                <!-- Post -->
+                <div class="col post">
+
+                    <!-- Post Heading -->
+                    <div class="post-heading">
+                        <img class="post-user-img" src="./assets/user2.png" alt="user"><span>jenniffer__</span>
+                        <div class="post-settings-points"><span></span><span></span><span></span></div>
+                    </div>
+
+                    <!-- Post Image -->
+                    <div class="post-img">
+                        <img src="./assets/landscape2.png" alt="post img">
+                    </div>
+
+                    <!-- Post Actions -->
+                    <div class="post-actions">
+
+                        <svg version="1.1" id="post-heart-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-heart{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <g>
+                            <g>
+                                <path class="post-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                    c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                    C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                            </g>
+                            <g>
+                                <path class="post-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                    c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                    C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                            </g>
+                        </g>
+                        </svg>
+
+                        <svg version="1.1" id="post-comment-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-comment{fill:none;stroke:#262626;stroke-width:15px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-comment" d="M270.23,270.14l-59.7-20.89c-19.58,12.61-42.87,19.92-67.84,19.92c-69.33,0-125.74-56.4-125.74-125.74
+                            C16.95,74.1,73.36,17.7,142.69,17.7s125.73,56.4,125.73,125.73c0,23.92-6.71,46.29-18.34,65.35L270.23,270.14z M243.26,209.54
+                            c4.87-7.52,11.14-19.02,15.24-34.12c0,0,4.23-15.67,4.23-31.66c0-66.17-53.83-120.01-120.01-120.01S22.71,77.59,22.71,143.76
+                            c0,66.18,53.84,120.02,120.02,120.02c16.78,0,33.75-4.83,33.75-4.83c15.07-4.22,26.68-10.39,34.44-15.27
+                            c17.36,6.44,34.72,12.88,52.08,19.32C256.42,245.18,249.84,227.36,243.26,209.54z"/>
+                        </svg>
+
+                        <svg version="1.1" id="post-direct-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-direct{fill:none;stroke:#262626;stroke-width:3px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-direct" d="M54.98,5.3L29.32,55.5l-6.58-29.07L4.72,5.3H54.98z M22.74,26.43c10.32-6.77,20.65-13.53,30.97-20.3"/>
+                        </svg>
+
+                        <svg version="1.1" id="post-save-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+                        <style type="text/css">
+                            .post-save{fill:#262626;stroke:#262626;stroke-width:13px;stroke-linecap:round;stroke-linejoin:round;}
+                        </style>
+                        <path class="post-save" d="M280.9,279.42L149.76,148.28L18.3,279.74V18.3h262.6V279.42z M13.3,13.3v271.44v1.16h5.91l5-5l125.55-125.55
+                            L275.31,280.9l5,5h5.59v-1.48V13.3H13.3z"/>
+                        </svg>
+
+                    </div>
+
+                    <!-- Post infos -->
+                    <div class="post-info">
+                        <div class="post-likes"><span>123</span> likes</div>
+                        <div class="post-author-title"><span class="post-author">jenniffer__</span><span class="post-title"> Nice view :)</span></div>
+                    </div>
+
+                    <!-- Post comments -->
+                    <div class="post-comments">
+                        <div class="post-comments-view-more">View all <span>25</span> comments</div>
+                        <div class="post-selected-comments">
+                            <div class="post-comment">
+                                <span class="post-comment-author">mark_z</span><span class="post-raw-comment"> WOW! Impessive...</span>
+                                <svg version="1.1" id="post-comment-svg-heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                                <style type="text/css">
+                                    .post-comment-heart{fill:none;stroke:#000000;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round;}
+                                </style>
+                                <g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                            c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                            C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                                    </g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                            c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                            C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                                    </g>
+                                </g>
+                                </svg>
+                            </div>
+                            <div class="post-comment">
+                                <span class="post-comment-author">lili.lo</span><span class="post-raw-comment"> I liked that.</span>
+                                <svg version="1.1" id="post-comment-svg-heart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M8.63,32.34L29.89,53.6l21.26-21.26c3.71-3.71,5.05-8.37,3.78-13.13c-1.46-5.45-6.1-10.09-11.55-11.55
+                                            c-4.76-1.27-9.42,0.07-13.13,3.78l-0.35,0.35l-0.35-0.35c-2.64-2.64-5.82-4.01-9.19-4.01c-1.13,0-2.28,0.15-3.44,0.46
+                                            C11.41,9.37,6.56,14.23,5.09,19.71C3.85,24.33,5.11,28.82,8.63,32.34z"/>
+                                    </g>
+                                    <g>
+                                        <path class="post-comment-heart" d="M7.92,33.05l21.96,21.96l21.96-21.96c3.97-3.97,5.41-8.98,4.04-14.09C54.33,13.17,49.41,8.25,43.62,6.7
+                                            c-4.96-1.33-9.83-0.02-13.74,3.69c-3.73-3.52-8.42-4.75-13.24-3.46C10.73,8.51,5.7,13.55,4.12,19.45
+                                            C2.79,24.43,4.14,29.26,7.92,33.05z"/>
+                                    </g>
+                                </g>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="post-timeline">5 hours ago</div>
+
+                    </div>
+
+                    <!-- Post comment form -->
+                    <div class="post-comment-form-container">
+                        <form action="#">
+                            <textarea class="comment-textarea" name="comment" placeholder="Add a comment..."></textarea>
+                            <input class="comment-input" type="submit" value="Post">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
