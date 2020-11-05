@@ -17,15 +17,22 @@ The Website includes many futures of Instagram.
 -Login and logout
 
 -Share posts
+
 -Like, comment and save someone's posts
+
 -Like someone's comments
+
 -Follow and unfollow others
+
 -Manage your profile (edit inofs, upload profile pics etc.)
+
 -Message someone through direct
 
 And additionally:
 -Search,
+
 -Live chat,
+
 -Notifications (when message, follow, like, and comment a post) working features as well.
 
 Like in original Instagram, here also new feeds and posts uploading when scroll to bottom of the page. Initially not all comments showing, you can view all comments of a post just by clicking "view all comments" button. Likes and comments count works as good as in original Instagram. You can also view whose likes a post, whose followes someone or followers of someone like in original Instagram.
