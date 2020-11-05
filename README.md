@@ -12,6 +12,7 @@ Informations about website:
 As I said this is the copy of Instagram and only created for the purpose of portfolio for my future plans. 
 
 The Website includes many futures of Instagram.
+
 -You can sign up for an account
 
 -Login and logout
@@ -29,6 +30,7 @@ The Website includes many futures of Instagram.
 -Message someone through direct
 
 And additionally:
+
 -Search,
 
 -Live chat,
