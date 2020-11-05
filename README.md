@@ -1,7 +1,7 @@
 # aztagram
 This is the front part of the Website. I named it Aztagram, which is the copy of Instagram. In other word, I created the front-end copy of Instagram. This repository includes PSD/AI and all other Web files that designed and created all by myself. I am also planning to make this website dynamic by using PHP and other files that related to Back-end. When I'm finish, I going to upload that stuff too. I am doing that as a portfolio for my future plans.
 
-Update
+# Update
 
 I finished the back-end of the website and upload all files to a free server. I'm leaving the link of the website below.
 
