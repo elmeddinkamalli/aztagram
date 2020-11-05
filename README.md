@@ -25,7 +25,7 @@ The Website includes many futures of Instagram.
 
 -Follow and unfollow others
 
--Manage your profile (edit inofs, upload profile pics etc.)
+-Manage your profile (edit inofs, upload profile pics, edit password etc.)
 
 -Message someone through direct
 
