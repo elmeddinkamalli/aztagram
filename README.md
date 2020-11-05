@@ -21,7 +21,7 @@ The Website includes many futures of Instagram.
 
 -Like, comment and save someone's posts
 
--Like someone's comments
+-Like someone's comment
 
 -Follow and unfollow others
 
@@ -37,4 +37,4 @@ And additionally:
 
 -Notifications (when message, follow, like, and comment a post) working features as well.
 
-Like in original Instagram, here also new feeds and posts uploading when scroll to bottom of the page. Initially not all comments showing, you can view all comments of a post just by clicking "view all comments" button. Likes and comments count works as good as in original Instagram. You can also view whose likes a post, whose followes someone or followers of someone like in original Instagram.
+Like in original Instagram, here also new feeds and posts uploading when scroll to bottom of the page. Initially not all comments showing, you can view all comments of a post just by clicking "view all comments" button. Likes and comments counts works as good as in original Instagram. You can also view whose likes a post, whose followes someone or followers of someone like in original Instagram.
