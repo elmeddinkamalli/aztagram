@@ -13,7 +13,9 @@ As I said this is the copy of Instagram and only created for the purpose of port
 
 The Website includes many futures of Instagram.
 -You can sign up for an account
+
 -Login and logout
+
 -Share posts
 -Like, comment and save someone's posts
 -Like someone's comments
